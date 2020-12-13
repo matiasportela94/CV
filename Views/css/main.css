@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+
+html,
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+#imgHeader {
+  height: 7vh;
+}
+
+nav {
+  background-color: none;
+}
+
+nav div a span {
+  text-align: center;
+  font-size: 2vh;
+  color: rgb(184, 184, 184);
+}
+
+.contactButton{
+  color: #ffffff;
+  font-size: 3vh;
+  width: 100%;
+}
+
+.fixed-top.scrolled {
+  background-color: #1d1d1d !important;
+  transition: background-color 500ms linear;
+}
+
+header {
+  padding: 0 100px;
+  height: 90vh;
+  background-color: #1d1d1d;
+  width: 100%;
+  background: url(../img/fondo7.jpg) no-repeat right center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section{
+  height: 600px;
+}
+
+#greet{
+  font-size: 15vh;
+}
+
+#presentation{
+  font-size: 12vh;
+}
+
+.name{
+  font-weight: 900;
+}
+
+#profilePic {
+  width: 100%;
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+
+  #greet{
+    font-size: 10vh;
+  }
+  
+  #presentation{
+    font-size: 5vh;
+  }
+
+  #profilePic {
+    display: none;
+  }
+}
+
+footer{
+  background-color: #1d1d1d;
+}
